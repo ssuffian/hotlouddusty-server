@@ -1,7 +1,5 @@
-*.py[cod]
-__pycache__/
-*.egg-info
-
-scripts/.ipynb_checkpoints/
-data/
+*.swp
+__pycache__/*
+data/*
 !data/.gitkeep
+*/.ipynb_checkpoints
