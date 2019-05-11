@@ -4,9 +4,15 @@ To sync data
 
         rsync -azP pi@192.168.43.233:/home/pi/hotlouddusty/data/*.csv data/
 
+## Timeseries
+
+        docker-compose run --rm scripts/write_plot_data.py 
+
+## Map
+
 To create geojson for the [Leaflet.timeline earthquakes.html example (which I forked to slightly change so it reads from a local file](https://github.com/ssuffian/Leaflet.timeline)
         
-        docker-compose run --rm python make_geojsonp.py
+        docker-compose run --rm python scripts/make_geojsonp.py
 
 Which creates a file called data.geojsonp. Move this file to the Leaflet.timeline/examples folder. Then:
 

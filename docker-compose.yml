@@ -30,7 +30,7 @@ services:
 
   python:
     image: hotlouddusty_server_shell
-    entrypoint: python scripts/
+    entrypoint: python
     volumes:
       - .:/app
     depends_on:

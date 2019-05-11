@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.area {
+  fill: steelblue;
+  clip-path: url(#clip);
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.dot {
+  fill: black;
+}
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+</style>
+<h1>Temperature (F)</h1>
+<svg id="hot" width="960" height="500"></svg>
+<!--<svg id="svg2" width="960" height="500"></svg>
+<svg id="svg3" width="960" height="500"></svg>-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="graph.js"></script>
+<script>
+makeGraph("hot")
+//makeGraph("pm25_1")
+//makeGraph("svg2")
+//makeGraph("svg3")
+</script>
