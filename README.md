@@ -23,4 +23,4 @@ And go to the earthquakes.html page.
 
 # Thanks to:
 [GeoJson Time Series](https://github.com/skeate/Leaflet.timeline)
-
+[d3 Brush and Zoom](https://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172)
